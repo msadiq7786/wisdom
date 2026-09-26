@@ -11,6 +11,7 @@ const notoSans = Noto_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://wisdomschoolmysuru.com"),
   title: "Wisdom Nursey and Primary School | Islamic Values-Based School in Mysuru | Grades 1–7",
   description:
     "Wisdom School in Kesare, Rajendranagar, Mysuru provides education for Grades 1–7, combining academic learning with Islamic values, character development, discipline and holistic growth.",
@@ -34,12 +35,22 @@ export const metadata: Metadata = {
     description:
       "Wisdom School in Kesare, Rajendranagar, Mysuru provides academic education with Islamic values, character development, discipline, and holistic growth for students from Grades 1–7.",
     type: "website",
+    url: "https://wisdomschoolmysuru.com",
+    images: [
+      {
+        url: "/ogs/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Wisdom School preview image",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Wisdom School Mysuru | Grades 1–7",
     description:
       "Academic learning, Islamic values, character development and holistic growth for students from Grades 1–7 in Kesare, Mysuru.",
+    images: ["/ogs/og-image.png"],
   },
 };
 
