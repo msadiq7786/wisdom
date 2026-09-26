@@ -3,6 +3,7 @@
 import {
   FaEnvelope,
   FaFacebookF,
+  FaGithub,
   FaInstagram,
   FaLinkedinIn,
   FaLocationDot,
@@ -16,11 +17,12 @@ import SCHOOL_CONTACT from "@/data/contact";
 import { NAVIGATION } from "@/data/navigation";
 
 const SOCIAL_ICONS = {
+  github: FaGithub,
+  whatsapp: FaWhatsapp,
   facebook: FaFacebookF,
   instagram: FaInstagram,
-  youtube: FaYoutube,
   linkedin: FaLinkedinIn,
-  whatsapp: FaWhatsapp,
+  youtube: FaYoutube,
 } as const;
 
 const Footer = () => {
@@ -143,28 +145,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/15 py-5">
-          <div className="flex flex-col items-center justify-between gap-3 text-center md:flex-row md:text-left">
-            <p className="text-xs text-slate-300">
+            <p className="text-xs text-slate-300 text-center">
               © {new Date().getFullYear()} {SCHOOL_CONTACT.schoolName}. All
               rights reserved.
             </p>
-
-            <div className="flex items-center gap-6">
-              <Link
-                href="/privacy-policy"
-                className="text-xs text-slate-300 hover:text-blue-300"
-              >
-                Privacy Policy
-              </Link>
-
-              <Link
-                href="/terms"
-                className="text-xs text-slate-300 hover:text-blue-300"
-              >
-                Terms of Service
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
     </footer>

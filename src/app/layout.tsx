@@ -11,7 +11,7 @@ const notoSans = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Wisdom School | Islamic Values-Based School in Mysuru | Grades 1–7",
+  title: "Wisdom Nursey and Primary School | Islamic Values-Based School in Mysuru | Grades 1–7",
   description:
     "Wisdom School in Kesare, Rajendranagar, Mysuru provides education for Grades 1–7, combining academic learning with Islamic values, character development, discipline and holistic growth.",
   keywords: [
@@ -59,7 +59,7 @@ const jsonLd = {
   areaServed: "Mysuru",
   educationalLevel: "Primary and Middle School",
   telephone: "+91 98458 35938",
-  email: "info@wisdomschool.com",
+  email: "samiullas999@gmail.com",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

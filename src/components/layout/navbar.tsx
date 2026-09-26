@@ -85,7 +85,7 @@ const Navbar = () => {
 
             <div className="border-border border-l pl-3">
               <p className="text-primary text-lg leading-tight font-bold sm:text-xl">
-                Wisdom School
+                Wisdom Nursery and Primary School
               </p>
 
               <p className="text-muted-foreground mt-1 text-xs sm:text-sm">

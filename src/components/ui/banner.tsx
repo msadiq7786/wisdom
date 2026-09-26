@@ -16,7 +16,7 @@ const Banner = () => {
         aria-hidden="true"
         className="inline-flex items-center justify-evenly gap-1.5"
       >
-        <li>🎓 Admissions Open | Classes 1–7 | Wisdom School, Kesare, Mysuru</li>
+        <li>🎓 Admissions Open | Classes 1–7 </li>
         <Dot className="text-muted-foreground hidden sm:inline" />
         <li className="hidden sm:inline">{SCHOOL_CONTACT.email}</li>
         <Dot className="text-muted-foreground hidden sm:inline" />

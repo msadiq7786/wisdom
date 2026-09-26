@@ -9,7 +9,7 @@ function About() {
           </h1>
 
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Wisdom School is an Islamic values-based school located in Kesare,
+            Wisdom Nursery and Primary School is an Islamic values-based school located in Kesare,
             Rajendranagar, Mysuru, providing education for students from Grade 1
             to Grade 7.
           </p>

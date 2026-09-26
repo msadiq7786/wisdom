@@ -42,6 +42,13 @@ export const GALLERIES: Record<string, GalleryItem> = {
       "https://res.cloudinary.com/udm8np99/image/upload/v1790186056/school_gallery_04.jpg",
       "https://res.cloudinary.com/udm8np99/image/upload/v1790186481/IMG_9304_website.jpg",
       "https://res.cloudinary.com/udm8np99/image/upload/v1790186059/IMG_9305_website.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790412009/anuall5.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790412007/anul7.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790412007/anual6.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790410880/fath.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790410842/anull.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790413830/anual89.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790413832/anualday8.jpg",
     ],
     description:
       "A celebration of talent, creativity, and achievement, where our students take the stage with confidence and joy. From inspiring performances to proud moments of recognition, Annual Day brings together students, teachers, and families to celebrate the spirit and success of our school community.",
@@ -66,6 +73,19 @@ export const GALLERIES: Record<string, GalleryItem> = {
     description:
       "A peaceful beginning to every day, where young hearts come together with faith, gratitude, and hope. These moments of prayer nurture values, inner strength, respect, and togetherness, reminding our students that a strong character is the foundation of a meaningful life.",
   },
+  teachersday: {
+    title: "Teachers Day Celebration",
+    images:
+      ["https://res.cloudinary.com/udm8np99/image/upload/v1790411522/3teach.jpg",
+        "https://res.cloudinary.com/udm8np99/image/upload/v1790411523/teach1.jpg",
+        "https://res.cloudinary.com/udm8np99/image/upload/v1790411523/teacher.jpg",
+        "https://res.cloudinary.com/udm8np99/image/upload/v1790413871/award.jpg",
+        "https://res.cloudinary.com/udm8np99/image/upload/v1790413867/awrd1.jpg",
+      ],
+    description: "A special celebration dedicated to our wonderful teachers, honoring their dedication, guidance, and invaluable contribution to shaping the future of our students. The day was filled with gratitude, appreciation, and memorable moments shared by students and teachers."
+
+
+  }
 };
 
 export default GALLERIES;
