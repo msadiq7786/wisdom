@@ -4,25 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
+import { SLIDE_IMAGES } from "@/data/slides";
 
-const SLIDE_IMAGES = [
-  {
-    src: "https://res.cloudinary.com/udm8np99/image/upload/v1790153869/ChatGPT_Image_Sep_23_2026_02_13_01_PM.png",
-    alt: "Students participating in a school activity at Wisdom School",
-  },
-  {
-    src: "https://res.cloudinary.com/udm8np99/image/upload/v1790186053/school_gallery_01.jpg",
-    alt: "Students gathered for a school event at Wisdom School",
-  },
-  {
-    src: "https://res.cloudinary.com/udm8np99/image/upload/v1790186595/IMG_9297_website.jpg",
-    alt: "Children learning together at Wisdom School, Mysuru",
-  },
-  {
-    src: "https://res.cloudinary.com/udm8np99/image/upload/v1790186715/IMG_9294_website.jpg",
-    alt: "Students at Wisdom School, Kesare, Rajendranagar, Mysuru",
-  },
-];
+
 
 const HeroSlider = () => {
   const [index, setIndex] = useState(0);

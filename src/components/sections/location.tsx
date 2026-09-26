@@ -27,8 +27,8 @@ const Location = () => {
           </p>
         </div>
         <address className="text-muted-foreground text-md text-center leading-6">
-          <strong className="text-foreground">Wisdom School - </strong>
-          11th Cross, Kesare Rajendranagar, Mysuru Karnataka, India
+          <strong className="text-foreground">{SCHOOL_CONTACT.schoolName} - </strong>
+          {SCHOOL_CONTACT.address}
         </address>
         <div className="border-border h-80 overflow-hidden rounded-lg border sm:h-100 lg:h-105">
           <iframe
