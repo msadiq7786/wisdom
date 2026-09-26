@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://wisdomschoolmysuru.com";
+const baseUrl = "https://www.wisdomprimary.in";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
