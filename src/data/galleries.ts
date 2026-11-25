@@ -85,7 +85,17 @@ export const GALLERIES: Record<string, GalleryItem> = {
     description: "A special celebration dedicated to our wonderful teachers, honoring their dedication, guidance, and invaluable contribution to shaping the future of our students. The day was filled with gratitude, appreciation, and memorable moments shared by students and teachers."
 
 
-  }
+  },
+  "grs": {
+    title: "School Trip To GRS",
+    images: [
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790411562/grs2.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790411563/grs1.jpg",
+      "https://res.cloudinary.com/udm8np99/image/upload/v1790411560/grs3.jpg",
+    ],
+    description:
+      "A fun-filled school trip to GRS Fantasy Park, featuring exciting rides, water attractions, games, and memorable moments shared with friends and classmates",
+  },
 };
 
 export default GALLERIES;
